@@ -1,5 +1,4 @@
 import type { Vec2 } from "../vec2";
-import type { LilyPad } from "../sim";
 
 export function drawLilyPad(
   ctx: CanvasRenderingContext2D,
