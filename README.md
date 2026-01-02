@@ -4,6 +4,9 @@
 
 A relaxing koi pond simulation with schooling behavior, ripples, and lily pads - built with TypeScript + Canvas.
 
+## Live demo
+Try it here: **https://krvnishka.github.io/koi-pond/**
+
 ## Features
 - Schooling / flocking behavior (separation, alignment, cohesion)
 - Click / tap to place a goal + ripple
