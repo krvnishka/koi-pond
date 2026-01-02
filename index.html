@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Fish Swarm</title>
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+
+    <div id="ui">
+      <div class="row">
+        <label>Fish</label>
+        <input id="count" type="range" min="10" max="100" value="20" />
+        <span id="countVal"></span>
+      </div>
+
+      <div class="row">
+        <label>Speed</label>
+        <input id="speed" type="range" min="150" max="600" value="350" />
+        <span id="speedVal"></span>
+      </div>
+
+      <div class="row">
+        <label>Goal strength</label>
+        <input id="goal" type="range" min="0" max="200" value="100" />
+        <span id="goalVal"></span>
+      </div>
+
+      <div class="row">
+        <label>Separation</label>
+        <input id="sep" type="range" min="0" max="200" value="120" />
+        <span id="sepVal"></span>
+      </div>
+
+      <div class="row">
+        <label>Alignment</label>
+        <input id="ali" type="range" min="0" max="200" value="70" />
+        <span id="aliVal"></span>
+      </div>
+
+      <div class="row">
+        <label>Cohesion</label>
+        <input id="coh" type="range" min="0" max="200" value="60" />
+        <span id="cohVal"></span>
+      </div>
+
+      <div class="hint">Click / tap to place a goal + ripple</div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
